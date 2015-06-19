@@ -71,6 +71,8 @@
       return
       end function f
       
+
+
       double precision function u(x)
       double precision::x
       u=sin(x)

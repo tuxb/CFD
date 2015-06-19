@@ -54,8 +54,8 @@
          e1=e1+erro*dx
          e8=max(e8,erro)
        enddo
-      write(*,*) nx,e1,e8,e
-      write(1,*) nx,e1,e8,e
+      write(*,*) nx,e1,e8!,e
+      write(1,*) nx,e1,e8!,e
       if(nx<=320)then
 !      do i=1,nx
 !      write(nx,*)x(i),uc(i)

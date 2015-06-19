@@ -48,7 +48,7 @@ module modl
      order_e(2:len)=log(data_e(1:len-1)/data_e(2:len))/log(2.)
      
      do i=2,len
-     write (*, *) wge(i),order_e1(i), order_e8(i), order_e(i)
+     write (*, *) wge(i),order_e1(i), order_e8(i)!, order_e(i)
         end do
     end subroutine order
 end module modl
